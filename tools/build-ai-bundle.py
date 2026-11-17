@@ -102,7 +102,10 @@ def main() -> int:
             f"tools/build-ai-bundle.py on {date.today().isoformat()}. "
             "Generated file — edit the sources, not this bundle. "
             "Code files (templates, tools, example configs) are not "
-            "inlined; see manifest.json for the full file map.\n\n"
+            "inlined; see manifest.json for the full file map. "
+            "Relative links inside the bundle point at the original "
+            "files in the repo — open the source file (named in the "
+            "section markers) for working links.\n\n"
         )
         for rel in order:
             path = os.path.join(root, rel)
