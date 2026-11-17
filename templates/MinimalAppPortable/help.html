@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AppName Portable Help</title>
+</head>
+<body>
+<h1>AppName Portable Help</h1>
+<p>AppName Portable is a portable version of AppName. It stores all of
+its settings and data inside its own <code>Data</code> folder, so it can
+be carried on a portable drive and used on any Windows PC without leaving
+settings behind on the host computer.</p>
+
+<h2>Running AppName Portable</h2>
+<p>Run <code>AppNamePortable.exe</code>. On first run, default settings
+are created in the <code>Data</code> folder. Deleting the <code>Data</code>
+folder resets the app to its defaults.</p>
+
+<h2>Your data, backups, and privacy</h2>
+<p>Everything this app remembers lives in the <code>Data</code> folder,
+in plain form, like most applications' settings. Copying the whole
+AppNamePortable folder copies the app and your data; copying just
+<code>Data</code> backs up your settings and data. If you carry accounts
+or credentials in this app, consider encrypting the drive (for example
+with BitLocker To Go) — a lost drive otherwise means lost accounts. If
+you run this app on a shared or public computer, the app restores the
+computer's own settings when it closes — but anything you save outside
+the app (for example a file you export to the Desktop) stays where you
+put it. The extracted package folder is program files: if anyone else
+could have changed files in it, delete it and re-install from the
+original .paf.exe.</p>
+
+<h2>User configuration</h2>
+<p>An optional configuration file can be placed next to
+<code>AppNamePortable.exe</code>. Copy
+<code>Other\Source\AppNamePortable.ini</code> to the package root, rename
+it to <code>AppNamePortable.ini</code>, and edit it. Supported options:</p>
+<ul>
+<li><code>AdditionalParameters=</code> — extra command-line parameters
+passed to the application.</li>
+<li><code>DisableSplashScreen=false</code> — set to <code>true</code> to
+hide the splash screen.</li>
+<li><code>RunLocally=false</code> — set to <code>true</code> to run from
+read-only media; the app is copied to a temporary folder, run, and the
+copy is removed afterwards.</li>
+</ul>
+
+<h2>Support</h2>
+<p>For help with the base application, see the AppName homepage listed in
+<code>App\AppInfo\appinfo.ini</code>.</p>
+</body>
+</html>

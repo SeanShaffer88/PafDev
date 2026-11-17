@@ -1,0 +1,365 @@
+{
+  "repo": "pafdev",
+  "generated": "2026-11-17",
+  "purpose": "PafDev \u2014 PortableApps.com Development Knowledge Base",
+  "startHere": [
+    "AGENTS.md",
+    "README.md"
+  ],
+  "readingOrder": [
+    "README.md",
+    "AGENTS.md",
+    "SOURCES.md",
+    "docs/01-format-spec.md",
+    "docs/02-installer-and-installer-ini.md",
+    "docs/03-launcher-overview.md",
+    "docs/04-launcher-ini-reference.md",
+    "docs/05-launcher-advanced-custom-code.md",
+    "docs/06-environment-variables.md",
+    "docs/07-end-to-end-workflow.md",
+    "docs/08-testing-debugging-troubleshooting.md",
+    "docs/09-licensing-permissions-submission.md",
+    "docs/10-platform-integration.md",
+    "docs/11-tools-and-versions.md",
+    "docs/12-glossary-and-faq.md",
+    "docs/13-ecosystem-and-source-repositories.md",
+    "docs/14-beginner-packaging-guide.md",
+    "docs/15-users-contexts-and-environments.md",
+    "docs/16-updating-a-package.md",
+    "docs/17-failure-mode-reference.md",
+    "docs/18-security-privacy-and-abuse.md",
+    "docs/19-accessibility.md",
+    "docs/20-common-recipes.md",
+    "reference/environment-variables.md",
+    "reference/installer-keys.md",
+    "reference/launcher-keys.md",
+    "reference/package-layout.md",
+    "checklists/package-checklist.md",
+    "checklists/pre-release-checklist.md",
+    "templates/README.md",
+    "examples/README.md",
+    "tools/README.md"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 7342,
+      "summary": "AGENTS.md \u2014 Instructions for AI agents building PortableApps.com packages"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10321,
+      "summary": "PafDev \u2014 PortableApps.com Development Knowledge Base"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 4300,
+      "summary": "Sources"
+    },
+    {
+      "path": "checklists/package-checklist.md",
+      "bytes": 4731,
+      "summary": "Package Structure Checklist"
+    },
+    {
+      "path": "checklists/pre-release-checklist.md",
+      "bytes": 4090,
+      "summary": "Pre-Release Checklist"
+    },
+    {
+      "path": "docs/01-format-spec.md",
+      "bytes": 13197,
+      "summary": "01 \u2014 PortableApps.com Format 3.9 Specification"
+    },
+    {
+      "path": "docs/02-installer-and-installer-ini.md",
+      "bytes": 15784,
+      "summary": "02 \u2014 PortableApps.com Installer and installer.ini"
+    },
+    {
+      "path": "docs/03-launcher-overview.md",
+      "bytes": 6080,
+      "summary": "03 \u2014 PortableApps.com Launcher (PAL) Overview"
+    },
+    {
+      "path": "docs/04-launcher-ini-reference.md",
+      "bytes": 20896,
+      "summary": "04 \u2014 Launcher INI Complete Reference (PAL 2.2)"
+    },
+    {
+      "path": "docs/05-launcher-advanced-custom-code.md",
+      "bytes": 9244,
+      "summary": "05 \u2014 Launcher Advanced Topics: Segments and Custom Code"
+    },
+    {
+      "path": "docs/06-environment-variables.md",
+      "bytes": 7131,
+      "summary": "06 \u2014 PAL Environment Variable Substitution (envsub)"
+    },
+    {
+      "path": "docs/07-end-to-end-workflow.md",
+      "bytes": 8309,
+      "summary": "07 \u2014 End-to-End Workflow: From Local App to .paf.exe"
+    },
+    {
+      "path": "docs/08-testing-debugging-troubleshooting.md",
+      "bytes": 10914,
+      "summary": "08 \u2014 Testing, Debugging, and Troubleshooting"
+    },
+    {
+      "path": "docs/09-licensing-permissions-submission.md",
+      "bytes": 6490,
+      "summary": "09 \u2014 Licensing, Permissions, and Submitting to PortableApps.com"
+    },
+    {
+      "path": "docs/10-platform-integration.md",
+      "bytes": 4324,
+      "summary": "10 \u2014 PortableApps.com Platform Integration"
+    },
+    {
+      "path": "docs/11-tools-and-versions.md",
+      "bytes": 5085,
+      "summary": "11 \u2014 Official Tools and Versions"
+    },
+    {
+      "path": "docs/12-glossary-and-faq.md",
+      "bytes": 5772,
+      "summary": "12 \u2014 Glossary and FAQ"
+    },
+    {
+      "path": "docs/13-ecosystem-and-source-repositories.md",
+      "bytes": 6691,
+      "summary": "13 \u2014 Ecosystem, Source Repositories, and Community Resources"
+    },
+    {
+      "path": "docs/14-beginner-packaging-guide.md",
+      "bytes": 4839,
+      "summary": "14 \u2014 The Beginner Packaging Guide (Distilled, with Modern Corrections)"
+    },
+    {
+      "path": "docs/15-users-contexts-and-environments.md",
+      "bytes": 10591,
+      "summary": "15 \u2014 Who Uses These Packages, Where, and What That Obliges You to Do"
+    },
+    {
+      "path": "docs/16-updating-a-package.md",
+      "bytes": 3421,
+      "summary": "16 \u2014 Updating an Existing Package (the Maintainer's Workflow)"
+    },
+    {
+      "path": "docs/17-failure-mode-reference.md",
+      "bytes": 19293,
+      "summary": "17 \u2014 Failure-Mode Reference"
+    },
+    {
+      "path": "docs/18-security-privacy-and-abuse.md",
+      "bytes": 14281,
+      "summary": "18 \u2014 Security, Privacy, and Abuse"
+    },
+    {
+      "path": "docs/19-accessibility.md",
+      "bytes": 5954,
+      "summary": "19 \u2014 Accessibility"
+    },
+    {
+      "path": "docs/20-common-recipes.md",
+      "bytes": 5449,
+      "summary": "20 \u2014 Common Recipes"
+    },
+    {
+      "path": "examples/01-natively-portable-app.md",
+      "bytes": 1500,
+      "summary": "Example 1 \u2014 Natively portable app"
+    },
+    {
+      "path": "examples/02-registry-settings-app.md",
+      "bytes": 1793,
+      "summary": "Example 2 \u2014 Registry-settings app"
+    },
+    {
+      "path": "examples/03-appdata-filesmove-app.md",
+      "bytes": 3053,
+      "summary": "Example 3 \u2014 %APPDATA% app with stored absolute paths"
+    },
+    {
+      "path": "examples/04-java-app.md",
+      "bytes": 2272,
+      "summary": "Example 4 \u2014 Java application"
+    },
+    {
+      "path": "examples/05-qt-app.md",
+      "bytes": 1886,
+      "summary": "Example 5 \u2014 Qt application"
+    },
+    {
+      "path": "examples/06-online-installer-app.md",
+      "bytes": 2834,
+      "summary": "Example 6 \u2014 Online installer (freeware, no redistribution)"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 1581,
+      "summary": "Examples"
+    },
+    {
+      "path": "examples/real-world/7zip/7-ZipPortable.ini",
+      "bytes": 1263,
+      "summary": ""
+    },
+    {
+      "path": "examples/real-world/README.md",
+      "bytes": 5474,
+      "summary": "Real-World Configurations (Mirrored)"
+    },
+    {
+      "path": "examples/real-world/notepadplusplus/Custom.nsh",
+      "bytes": 2007,
+      "summary": ""
+    },
+    {
+      "path": "examples/real-world/notepadplusplus/Notepad++Portable.ini",
+      "bytes": 2684,
+      "summary": ""
+    },
+    {
+      "path": "examples/real-world/notepadplusplus/PortableApps.comInstallerCustom.nsh",
+      "bytes": 2756,
+      "summary": ""
+    },
+    {
+      "path": "examples/real-world/notepadplusplus/appinfo.ini",
+      "bytes": 882,
+      "summary": ""
+    },
+    {
+      "path": "examples/real-world/notepadplusplus/installer.ini",
+      "bytes": 252,
+      "summary": ""
+    },
+    {
+      "path": "reference/environment-variables.md",
+      "bytes": 2138,
+      "summary": "Reference \u2014 Environment Variables"
+    },
+    {
+      "path": "reference/installer-keys.md",
+      "bytes": 1550,
+      "summary": "Reference \u2014 installer.ini Quick Sections"
+    },
+    {
+      "path": "reference/launcher-keys.md",
+      "bytes": 3362,
+      "summary": "Reference \u2014 Launcher INI Quick Keys"
+    },
+    {
+      "path": "reference/package-layout.md",
+      "bytes": 2140,
+      "summary": "Reference \u2014 Package Layout"
+    },
+    {
+      "path": "templates/MinimalAppPortable/App/AppInfo/Launcher/AppNamePortable.ini",
+      "bytes": 1237,
+      "summary": ""
+    },
+    {
+      "path": "templates/MinimalAppPortable/App/AppInfo/Launcher/Custom.nsh",
+      "bytes": 570,
+      "summary": ""
+    },
+    {
+      "path": "templates/MinimalAppPortable/App/AppInfo/appinfo.ini",
+      "bytes": 567,
+      "summary": ""
+    },
+    {
+      "path": "templates/MinimalAppPortable/App/AppInfo/installer.ini",
+      "bytes": 674,
+      "summary": ""
+    },
+    {
+      "path": "templates/MinimalAppPortable/App/AppName/README.txt",
+      "bytes": 360,
+      "summary": ""
+    },
+    {
+      "path": "templates/MinimalAppPortable/App/DefaultData/README.txt",
+      "bytes": 551,
+      "summary": ""
+    },
+    {
+      "path": "templates/MinimalAppPortable/Data/README.txt",
+      "bytes": 380,
+      "summary": ""
+    },
+    {
+      "path": "templates/MinimalAppPortable/Other/Help/Images/README.txt",
+      "bytes": 213,
+      "summary": ""
+    },
+    {
+      "path": "templates/MinimalAppPortable/Other/Source/AppNamePortable.ini",
+      "bytes": 234,
+      "summary": ""
+    },
+    {
+      "path": "templates/MinimalAppPortable/Other/Source/Readme.txt",
+      "bytes": 1289,
+      "summary": ""
+    },
+    {
+      "path": "templates/MinimalAppPortable/help.html",
+      "bytes": 2292,
+      "summary": ""
+    },
+    {
+      "path": "templates/PortableApps.comInstallerCustom.nsh",
+      "bytes": 1186,
+      "summary": ""
+    },
+    {
+      "path": "templates/README.md",
+      "bytes": 2706,
+      "summary": "Templates"
+    },
+    {
+      "path": "templates/online-installer.ini",
+      "bytes": 879,
+      "summary": ""
+    },
+    {
+      "path": "tools/README.md",
+      "bytes": 1821,
+      "summary": "Tools"
+    },
+    {
+      "path": "tools/build-ai-bundle.py",
+      "bytes": 4222,
+      "summary": ""
+    },
+    {
+      "path": "tools/check-package.py",
+      "bytes": 11817,
+      "summary": ""
+    },
+    {
+      "path": "tools/new-package.ps1",
+      "bytes": 2378,
+      "summary": ""
+    },
+    {
+      "path": "tools/new-package.sh",
+      "bytes": 2338,
+      "summary": ""
+    },
+    {
+      "path": "tools/package.gitignore",
+      "bytes": 518,
+      "summary": ""
+    },
+    {
+      "path": "tools/paf-data.json",
+      "bytes": 2335,
+      "summary": ""
+    }
+  ]
+}
